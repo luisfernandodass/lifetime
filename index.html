@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap" rel="stylesheet"> 
+    <!---Font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <title>LifeTime</title>
 </head>
@@ -16,14 +19,26 @@
         <div class="body-page">
              <div class="main-box">
                       <div class="box-title">
-                          <p>Contar dias</p>
+                          <p id="ContarDias">Contar dias</p>
                       </div>
 
-                      <form action="">
+                      <form action="" class="formOne">
                           <input type="text" id="input">
+
+                          <button class="research" id="research">
+                              <span class="fas fa-search"></span>
+                            </button>
                       </form>
+
+                      <div class="resultData">
+                          <h1 id="box-quantity-days"></h1>
+                          <p id="dataStartAndEnd"></p>
+                      </div>
              </div>
+             <p class="myName">Desenvolvido por Luis Fernando, 2021.</p>
         </div>
     
+         <script src="js/script.js"></script>
+     
 </body>
 </html>
