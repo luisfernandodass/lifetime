@@ -5,15 +5,12 @@ body, html{
     background:  rgb(186, 200, 240);
 
     width: 80%;
-    
-       
-      
 }
-
 
 .main-box{
     background: rgb(250, 250, 250);
-    margin: 4%;
+    margin: 5%;
+    margin-top: 10%;
     height: 150px;
     width: 330px;
     border: 1px solid rgb(148, 171, 235);
@@ -34,16 +31,18 @@ body, html{
 }
 #getInput{
     width: 200px;  
+    height: 40px;
     border: none;
     border-bottom: 1px solid rgb(230, 221, 221);
-    background: transparent;
     margin-left: 10%;
-    
+    margin-top: -15px;
+    background: transparent;
 }
 .research{
     background: transparent;
     border: 0;
     color: rgb(94, 91, 91);
+
 }
 .research:hover{
     background: transparent;
