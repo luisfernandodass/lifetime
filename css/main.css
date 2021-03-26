@@ -32,7 +32,7 @@ body, html{
     margin-right: 10%;
     margin-top: 20%;
 }
-#input{
+#getInput{
     width: 70%;  
     border: none;
     border-bottom: 1px solid rgb(230, 221, 221);
@@ -60,4 +60,5 @@ body, html{
 .myName{
     text-align: center;
     margin-top: -40px;
+    font-size: 12px;
 }

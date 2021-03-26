@@ -1,21 +1,17 @@
+    const button = document.querySelector("#research");
 
-
-
-
-
-
-var button = document.getElementById('research');
-button.addEventListener("click", function(){
+    button.addEventListener("click", function(){
     
-    var today = new Date();
-    var dataStart = new Date();
+        const getInput = document.querySelector("#getInput");
 
-    var input = document.getElementById('input').value;
+        const value = getInput.value;
 
-    
-    var difference = today.getTime() - dataStart.getTime();
-    difference = (difference / 86400000);
+        var today = new Date(value);
+        var dataStart = new Date();
 
-    var elMsg = document.getElementById('box-quantity-days');
-    elMsg.textContent = Math.floor(difference) + ' dias';
+        var difference = today.getTime() - dataStart.getTime();
+        difference = (difference / 86400000);
+
+        var elMsg = document.getElementById('box-quantity-days');
+        elMsg.textContent = Math.floor(difference) + ' dias';
 });
