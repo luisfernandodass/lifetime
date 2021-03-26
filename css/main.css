@@ -1,19 +1,23 @@
 body, html{
     margin: 0;
     padding: 0;
+    font-family: 'Quattrocento Sans', sans-serif;
     background:  rgb(186, 200, 240);
+
+    width: 80%;
+    
+       
+      
 }
 
-.body-page{
-    font-family: 'Quattrocento Sans', sans-serif;
-}
+
 .main-box{
     background: rgb(250, 250, 250);
-    margin: 20%;
+    margin: 4%;
     height: 20vh;
-
+    width: 330px;
     border: 1px solid rgb(148, 171, 235);
-    border-radius: 8%;
+    
     box-shadow: 1px 3px 5px rgb(148, 171, 235);
 }
 .box-title{
@@ -26,17 +30,15 @@ body, html{
 .formOne{
     height: 25px;
     margin: 30px;
-    
-    margin-top: 25%;
-    
+    margin-top: 50px;
 }
 #getInput{
-    width: 50%;  
+    width: 200px;  
     border: none;
     border-bottom: 1px solid rgb(230, 221, 221);
     background: transparent;
     margin-left: 10%;
-    margin-right: 10%;
+    
 }
 .research{
     background: transparent;
@@ -49,30 +51,23 @@ body, html{
     font-size: 15px;
     color: rgb(0, 0, 0);
 }
-.resultData{
-    height: 25px;
-    width: 60%;
-    font-size: 10px;
-    color: rgb(94, 91, 91);
-    font-weight: lighter;
-    margin-top:-65px;
-    margin-right: 10px;
-    float: right;
-}
+
 #box-quantity-days{
     height: 25px;
-    width: 100%;
+    margin-top: -100px;
+    width: 50%;
     font-size: 25px;
     color: rgb(94, 91, 91);
     font-weight: lighter;
-    margin: 0;
-    float: right;
+   float: right;
     padding: 3%;
     text-align: end;
-    margin-top: -40px;
+    
 }
-.myName{
+ 
+.footer{
     text-align: center;
-    margin-top: -40px;
     font-size: 12px;
+    width: 100%;
+    margin: 20%;
 }
