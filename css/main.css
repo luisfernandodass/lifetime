@@ -6,20 +6,17 @@ body, html{
 
 .body-page{
     font-family: 'Quattrocento Sans', sans-serif;
-    width: 100%;
 }
 .main-box{
     background: rgb(250, 250, 250);
     margin: 20%;
     height: 20vh;
-    width: 60%;
 
     border: 1px solid rgb(148, 171, 235);
     border-radius: 8%;
     box-shadow: 1px 3px 5px rgb(148, 171, 235);
 }
 .box-title{
-    background:transparent;
     color: rgb(94, 91, 91);
     font-weight: bolder;
     padding-left: 10px;
@@ -27,35 +24,52 @@ body, html{
     box-shadow: 2px 4px 4px  rgb(148, 171, 235);
 }
 .formOne{
-    width: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 20%;
+    height: 25px;
+    margin: 30px;
+    
+    margin-top: 25%;
+    
 }
 #getInput{
-    width: 70%;  
+    width: 50%;  
     border: none;
     border-bottom: 1px solid rgb(230, 221, 221);
     background: transparent;
-
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .research{
     background: transparent;
     border: 0;
+    color: rgb(94, 91, 91);
 }
 .research:hover{
     background: transparent;
     border: 0;
     font-size: 15px;
+    color: rgb(0, 0, 0);
 }
 .resultData{
-    width: 40%;
+    height: 25px;
+    width: 60%;
     font-size: 10px;
     color: rgb(94, 91, 91);
     font-weight: lighter;
-    margin-top:-70px;
+    margin-top:-65px;
     margin-right: 10px;
     float: right;
+}
+#box-quantity-days{
+    height: 25px;
+    width: 100%;
+    font-size: 25px;
+    color: rgb(94, 91, 91);
+    font-weight: lighter;
+    margin: 0;
+    float: right;
+    padding: 3%;
+    text-align: end;
+    margin-top: -40px;
 }
 .myName{
     text-align: center;
