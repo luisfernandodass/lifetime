@@ -18,9 +18,7 @@ button.addEventListener("click", function(){
     
 });
 */
-const button = document.getElementById("research");
-
-function fat(button){
+function fat(){
     const getInput = document.getElementById("getInput");
 
     const value = getInput.value;
