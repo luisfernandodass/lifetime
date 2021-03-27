@@ -2,15 +2,15 @@ body, html{
     margin: 0;
     padding: 0;
     font-family: 'Quattrocento Sans', sans-serif;
-    background:  rgb(186, 200, 240);
-
-    width: 80%;
+    background:  rgb(157, 179, 240);
+    width: 100%;
 }
 
 .main-box{
     background: rgb(250, 250, 250);
     margin: 5%;
-    margin-top: 10%;
+    margin-top: 40%;
+    padding: 0%;
     height: 150px;
     width: 330px;
     border: 1px solid rgb(148, 171, 235);
@@ -26,10 +26,9 @@ body, html{
 }
 .formOne{
     height: 25px;
-    margin: 30px;
-    margin-top: 50px;
+    margin:32px;
 }
-#getInput{
+#getInput, #getInput:hover{
     width: 200px;  
     height: 40px;
     border: none;
@@ -38,6 +37,7 @@ body, html{
     margin-top: -15px;
     background: transparent;
 }
+
 .research{
     background: transparent;
     border: 0;
@@ -68,5 +68,5 @@ body, html{
     text-align: center;
     font-size: 12px;
     width: 100%;
-    margin: 20%;
+    margin: 0%;
 }
