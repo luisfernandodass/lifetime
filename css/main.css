@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1024px) {
   body {
     background: #363636;
   }
