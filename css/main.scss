@@ -1,115 +1,142 @@
-* {
-  margin: 0;
-  padding: 0;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-@media (max-width: 720px) {
-  body {
-    background: #363636;
-    height: 640px;
-  }
-  body .container-title {
+@media(max-width:720px){
+
+body{
+     background: #363636;   
+     height: 640px;
+
+ .container-title{
     position: absolute;
     width: 255px;
     height: 55px;
     left: 52px;
     top: 48px;
+
     background: rgba(128, 255, 234, 0.9);
-  }
-  body .container-title h1 {
-    font-family: Bebas Neue, sans-serif;
-    font-size: 18px;
-    line-height: 55px;
-    text-align: center;
-    color: #363636;
-  }
-  body .bornData {
+    
+    h1{
+        font-family: Bebas Neue, sans-serif;
+ 
+        font-size: 18px;
+        line-height: 55px;
+        text-align: center;
+        
+        color: #363636;
+    }     
+ }
+ 
+ .bornData{
     position: absolute;
     width: 115px;
     height: 14px;
     left: 26px;
     top: 248px;
+    
     font-family: Nunito, sans-serif;
     font-size: 12px;
     text-align: center;
+    
     color: #FFFFFF;
-  }
-  body span {
+ }
+
+ span{
     position: absolute;
     font-family: Bebas Neue, sans-serif;
+
     font-size: 28px;
     display: block;
     color: #FFFFFF;
     top: 40%;
     right: 40%;
-  }
-  body .day {
+ }
+
+ .day{
     position: absolute;
     width: 84px;
     height: 130px;
     left: 30px;
-    top: 289px;
-  }
-  body .column-one {
+    top: 289px; 
+ }
+
+ .column-one{
     position: absolute;
     width: 12.41px;
     height: 130px;
     left: 113.79px;
     top: 289px;
-    background: -webkit-gradient(linear, left top, left bottom, from(#80FFEA), to(rgba(255, 255, 255, 0))), rgba(149, 128, 255, 0.9);
+    
     background: linear-gradient(180deg, #80FFEA 0%, rgba(255, 255, 255, 0) 100%), rgba(149, 128, 255, 0.9);
-  }
-  body .month {
+ }
+
+ .month{
     position: absolute;
     width: 88px;
     height: 130px;
     left: 138.62px;
     top: 289px;
-  }
-  body .column-two {
+ }
+
+ .column-two{
     position: absolute;
     width: 12.41px;
     height: 130px;
     left: 222.41px;
     top: 289px;
-    background: -webkit-gradient(linear, left top, left bottom, from(#80FFEA), to(rgba(255, 255, 255, 0))), rgba(149, 128, 255, 0.9);
+    
     background: linear-gradient(180deg, #80FFEA 0%, rgba(255, 255, 255, 0) 100%), rgba(149, 128, 255, 0.9);
-  }
-  body .year {
+ }
+
+ .year{
     position: absolute;
     width: 82.76px;
     height: 130px;
     left: 247.24px;
     top: 289px;
-  }
-  .toCount {
+ }
+}
+
+.toCount{
     position: absolute;
     width: 300px;
     height: 55px;
     left: 30px;
     top: 468px;
+
     border: 0;
+    
     background: #9580FF;
-  }
-  .toCount h1 {
-    font-family: Bebas Neue,sans-serif;
-    font-size: 28px;
-    color: #FFFFFF;
-  }
-  .toCount:hover {
+
+    h1{
+      font-family: Bebas Neue,sans-serif;
+      font-size: 28px;
+
+      color: #FFFFFF;
+   } 
+ }
+
+ .toCount:hover{
     background: #685f96;
-    -webkit-transition: 2s;
+
     transition: 2s;
-  }
-  footer {
+
+    
+ }
+ 
+ footer{
     position: absolute;
     width: 300px;
     left: 30px;
     top: 589px;
+    
     font-family: Nunito, sans-serif;
     font-size: 10px;
     text-align: center;
+    
     color: #FFFFFF;
-  }
+ }
+
 }
-/*# sourceMappingURL=main.css.map */
