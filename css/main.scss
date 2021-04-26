@@ -19,11 +19,14 @@ body{
 
     h1{
         font-family: Bebas Neue, sans-serif;
- 
+        position: absolute;
+        
         font-size: 18px;
-        text-align: center;
 
-        line-height: 55px;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
         
         color: #363636;
     }     
@@ -115,6 +118,13 @@ body{
       font-size: 28px;
 
       color: #FFFFFF;
+
+      position: absolute;
+
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
    } 
  }
 
@@ -128,7 +138,7 @@ body{
     position: absolute;
     width: 300px;
     left: 30px;
-    top: 549px;
+    top: 520px;
     
     font-family: Nunito, sans-serif;
     font-size: 10px;
