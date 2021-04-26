@@ -9,33 +9,30 @@
     <!---Font awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
     integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/css/main.scss">
     <title>Contar dias de vida</title>
 </head>
 <body>      
-             <div class="main-box">
-                      <div class="box-title">
-                          <p id="ContarDias">Contar dias de vida</p>
-                      </div>
+             <div class="container">
+                 <div class="container-title">
+                     <h2>Conte quantos dias você já viveu</h2>
+                 </div>
+                  <div class="bornData">
+                      <p>Data de nascimento:</p>
+                  </div>
+                 <div class="currentData">
 
-                      <form action="" class="formOne">
-                          <input type="date" name="getInput" id="getInput" required>
-                           
-                          <button type="button" class="research" id="research" onclick="fat()">
-                              <span class="fas fa-search"></span>
-                            </button>
-                      </form>
+                 </div>
 
-                      <div>
-                          <p id="box-quantity-days">
-                              
-                          </p>
-                      </div>
+                 <button class="toCount">
+                    Contar
+                 </button>
              </div>
-             <footer class="footer">
-                <p>Desenvolvido por Luis Fernando, 2021.</p>
-             </footer>
 
-            <script src="js/script.js"></script>
+             <footer class="footer">
+                <p>Desenvolvido por Luis Fernando & BlackCube, 2021.</p>
+
+                <script src="js/script.js"></script>
+             </footer>
 </body>
 </html>
