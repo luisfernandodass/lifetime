@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media(max-width:360px){
+
+body{
+     background: #363636;   
+     height: 640px;
+}
+
+.container-title{
+    position: absolute;
+    width: 255px;
+    height: 55px;
+    left: 52px;
+    top: 48px;
+
+    background: rgba(128, 255, 234, 0.9);
+
+    /* letter "Conte quantos dias você já viveu */
+    font-family: Bebas Neue, sans-serif;
+ 
+    font-size: 10px;
+    line-height: 55px;
+    text-align: center;
+    
+    color: #363636;
+}
+ 
+.bornData{
+    position: absolute;
+    width: 115px;
+    height: 14px;
+    left: 26px;
+    top: 248px;
+    
+    font-family: Nunito, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.currentData{
+    width: 300px;
+    height: 130px;
+    left: 30px;
+    top: 289px; 
+}
+
+.day{
+    position: absolute;
+    width: 84px;
+    left: 30px;
+    top: 289px;
+    
+    font-family: Bebas Neue;
+  
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 130px;
+    color: #FAF8F8;
+    background: #814545;
+}
+
+.column-one{
+    position: absolute;
+    width: 12.41px;
+    height: 130px;
+    left: 113.79px;
+    top: 289px;
+    
+    background: linear-gradient(180deg, #80FFEA 0%, rgba(255, 255, 255, 0) 100%), rgba(149, 128, 255, 0.9);
+}
+
+.month{
+    position: absolute;
+    width: 88px;
+    height: 130px;
+    left: 138.62px;
+    top: 289px;
+    
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 130px;
+    color: #FAF8F8;
+    background: #814545;
+  
+    
+}
+
+.column-two{
+    position: absolute;
+    width: 12.41px;
+    height: 130px;
+    left: 222.41px;
+    top: 289px;
+    
+    background: linear-gradient(180deg, #80FFEA 0%, rgba(255, 255, 255, 0) 100%), rgba(149, 128, 255, 0.9);
+}
+
+.year{
+    position: absolute;
+width: 82.76px;
+height: 130px;
+left: 247.24px;
+top: 289px;
+
+font-family: Bebas Neue;
+
+font-size: 28px;
+line-height: 34px;
+display: flex;
+align-items: center;
+flex-direction: column;
+line-height: 130px;
+
+color: #FAF8F8;
+
+background: #814545;
+}
+
+.toCount{
+    position: absolute;
+    width: 300px;
+    height: 55px;
+    left: 30px;
+    top: 468px;
+    
+    background: #9580FF;
+
+    font-family: Bebas Neue,sans-serif;
+    font-size: 28px;
+
+    color: #FFFFFF;
+}
+ 
+footer{
+    position: absolute;
+    width: 300px;
+    left: 30px;
+    top: 589px;
+    
+    font-family: Nunito, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+}
