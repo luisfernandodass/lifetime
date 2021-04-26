@@ -6,7 +6,6 @@
 @media (max-width: 720px) {
   body {
     background: #363636;
-    height: 640px;
   }
   body .container-title {
     position: absolute;
