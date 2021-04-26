@@ -7,6 +7,7 @@
 
 body{
     background: #363636;   
+    height: 640px;
 
     .container-title{
       position: absolute;
@@ -16,13 +17,18 @@ body{
       top: 48px;
 
       background: rgba(128, 255, 234, 0.9);
-    
+
     h1{
         font-family: Bebas Neue, sans-serif;
  
         font-size: 18px;
-        line-height: 55px;
         text-align: center;
+
+        position: absolute;
+        display: block;
+
+        top: 30%;
+        right: 10%;
         
         color: #363636;
     }     
