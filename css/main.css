@@ -28,32 +28,27 @@
     color: #363636;
   }
   body .dataPastAndPresent {
-    position: absolute;
-    top: 18%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    font-family: Nunito, sans-serif;
-    font-size: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
+    width: 250px;
+    position: absolute;
+    margin-top: 25%;
+    left: 55px;
+    font-family: Nunito, sans-serif;
+    font-size: 10px;
     height: 38px;
-  }
-  body .dataPastAndPresent .pastData {
-    position: absolute;
-    width: 125px;
-    left: 52px;
-  }
-  body .dataPastAndPresent .point {
-    position: absolute;
-    left: 190px;
-    font-size: 24px;
-  }
-  body .dataPastAndPresent .presentData {
-    position: absolute;
-    width: 87px;
-    left: 220px;
   }
   body .result {
     position: absolute;

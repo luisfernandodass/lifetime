@@ -34,43 +34,24 @@
  }
  
  .dataPastAndPresent{
-    position: absolute;
-    top: 18%;
-
-    transform: translate(-50%, -50%);
-
-    font-family: Nunito, sans-serif;
-    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
 
+    width: 250px;
+   
+    position: absolute;
+    margin-top: 25%;
+    left: 55px;
+
+
+    font-family: Nunito, sans-serif;
+    font-size: 10px;
+
     height: 38px;
-
-
- 
-  .pastData{
-    position: absolute;
-    width: 125px;
-    
-    left: 52px;   
-   }
-
-  .point{
-    position: absolute;
-    left: 190px;  
-
-    font-size: 24px;
   }
-
-  .presentData{
-    position: absolute;
-    width: 87px;
-    left: 220px;
-  }
-
- }
-
-
 
  .result{
     position: absolute;
@@ -112,7 +93,6 @@
       transform: translate(-50%, -50%);
 
       align-items: center;
-
  
       .column-one{
         width: 12px;
@@ -129,9 +109,6 @@
       }
 
    }
-
-
-
 
    .toCount{
     position: absolute;
@@ -171,8 +148,7 @@
     
     font-family: Nunito, sans-serif;
     font-size: 10px;
-    text-align: center;
-    
+    text-align: center;   
    }
 
 }
