@@ -1,53 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@300&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@300&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="/css/main.css">
 
     <title>Contar dias de vida</title>
 </head>
-<body>      
-             <div class="container">
-                 <div class="container-title">
-                     <h1>Conte quantos dias você já viveu</h1>
-                 </div>
 
-                  <div class="bornData">
-                      <p>Data de nascimento:</p>
-                  </div>
+<body>
+    <div class="container">
+        <div class="container-title">
+            <h1>Conte quantos dias você já viveu</h1>
+        </div>
 
-                 <div class="currentData">
-                      <div class="day">
-                         <span>28</span>
-                      </div>
-                      <div class="column-one">
+        <div class="dataPastAndPresent">
+            <div class="pastData">
+                <span>Data de nascimento: 99/10/1999</span>
+            </div>
+            <div class="point">
+                <span>-</span>
+            </div>
+            <div class="presentData">
+                <span>Data atual: 99/10/1999</span>
+            </div>
+        </div>
 
-                      </div>
-                      <div class="month">
-<span>10</span>
-                      </div>
-                      <div class="column-two">
+        <div class="bornData-title">
+            <p>Data de nascimento:</p>
+        </div>
 
-                      </div>
-                      <div class="year">
-<span>2002</span>
-                      </div>
-                 </div>
+        <div class="result">
+            6000 dias
+        </div>
 
-                 <button class="toCount">
-                    <h1>Contar</h1>
-                 </button>
-             </div>
+        <div>
+            <div class="day">
+                <span class="partOfTheData">28</span>
+            </div>
+            <div class="column-one">
 
-             <footer>
-                <p>Desenvolvido por Luis Fernando & BlackCube, 2021.</p>
+            </div>
+            <div class="month">
+                <span class="partOfTheData">10</span>
+            </div>
+            <div class="column-two">
 
-                <script src="js/script.js"></script>
-             </footer>
+            </div>
+            <div class="year">
+                <span class="partOfTheData">2002</span>
+            </div>
+        </div>
+
+        <button class="toCount" onClick="toCount">
+            <h1>Contar</h1>
+        </button>
+    </div>
+
+    <footer>
+        <p>Desenvolvido por Luis Fernando & BlackCube, 2021.</p>
+
+        <script src="js/script.js"></script>
+    </footer>
 </body>
+
 </html>

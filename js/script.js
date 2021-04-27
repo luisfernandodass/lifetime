@@ -18,7 +18,7 @@ button.addEventListener("click", function(){
     
 });
 */
-function fat(){
+function toCount(){
     const getInput = document.getElementById("getInput");
 
     const value = getInput.value;

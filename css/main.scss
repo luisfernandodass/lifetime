@@ -6,7 +6,8 @@
 @media screen and (max-width:1024px){
 
 body{
-    background: #363636;   
+    background: #363636;
+   
 
     .container-title{
       position: absolute;
@@ -32,7 +33,45 @@ body{
     }     
  }
  
- .bornData{
+ .dataPastAndPresent{
+    position: absolute;
+    top: 18%;
+
+    transform: translate(-50%, -50%);
+
+    font-family: Nunito, sans-serif;
+    font-size: 10px;
+    align-items: center;
+    text-align: center;
+
+    height: 38px;
+
+    color: #FFFFFF;
+
+ 
+  .pastData{
+    position: absolute;
+    width: 125px;
+    
+    left: 52px;   
+   }
+
+  .point{
+    position: absolute;
+    left: 190px;  
+
+    font-size: 24px;
+  }
+
+  .presentData{
+    position: absolute;
+    width: 87px;
+    left: 220px;
+  }
+
+ }
+
+ .bornData-title{
     position: absolute;
     width: 115px;
     height: 14px;
@@ -46,23 +85,41 @@ body{
     color: #FFFFFF;
  }
 
- span{
+ .result{
     position: absolute;
+    font-family: Bebas Neue, sans-serif;
+    
+    top: 30%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+  
+    font-size: 36px;
+    line-height: 43px;
+    
+    color: #FFFFFF;
+ }
+
+ .partOfTheData{
+    position: relative;
     font-family: Bebas Neue, sans-serif;
 
     font-size: 28px;
     display: block;
     color: #FFFFFF;
-    top: 40%;
-    right: 40%;
+   
+    width: 95px;
+
+    text-align: center;
+    padding-right: 0;
+
+    top: 290px; 
  }
 
  .day{
     position: absolute;
-    width: 84px;
-    height: 130px;
+    
     left: 30px;
-    top: 249px; 
  }
 
  .column-one{
@@ -75,13 +132,11 @@ body{
     background: linear-gradient(180deg, #80FFEA 0%, rgba(255, 255, 255, 0) 100%), rgba(149, 128, 255, 0.9);
  }
 
- .month{
+.month{
     position: absolute;
-    width: 88px;
-    height: 130px;
-    left: 138.62px;
-    top: 249px;
- }
+    
+    left: 127px;
+}
 
  .column-two{
     position: absolute;
@@ -95,11 +150,10 @@ body{
 
  .year{
     position: absolute;
-    width: 82.76px;
-    height: 130px;
-    left: 247.24px;
-    top: 249px;
+    
+    left: 236px;
  }
+
 }
 
 .toCount{

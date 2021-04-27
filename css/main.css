@@ -26,7 +26,36 @@
             transform: translate(-50%, -50%);
     color: #363636;
   }
-  body .bornData {
+  body .dataPastAndPresent {
+    position: absolute;
+    top: 18%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-family: Nunito, sans-serif;
+    font-size: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    height: 38px;
+    color: #FFFFFF;
+  }
+  body .dataPastAndPresent .pastData {
+    position: absolute;
+    width: 125px;
+    left: 52px;
+  }
+  body .dataPastAndPresent .point {
+    position: absolute;
+    left: 190px;
+    font-size: 24px;
+  }
+  body .dataPastAndPresent .presentData {
+    position: absolute;
+    width: 87px;
+    left: 220px;
+  }
+  body .bornData-title {
     position: absolute;
     width: 115px;
     height: 14px;
@@ -37,21 +66,31 @@
     text-align: center;
     color: #FFFFFF;
   }
-  body span {
+  body .result {
     position: absolute;
+    font-family: Bebas Neue, sans-serif;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+  }
+  body .partOfTheData {
+    position: relative;
     font-family: Bebas Neue, sans-serif;
     font-size: 28px;
     display: block;
     color: #FFFFFF;
-    top: 40%;
-    right: 40%;
+    width: 95px;
+    text-align: center;
+    padding-right: 0;
+    top: 290px;
   }
   body .day {
     position: absolute;
-    width: 84px;
-    height: 130px;
     left: 30px;
-    top: 249px;
   }
   body .column-one {
     position: absolute;
@@ -64,10 +103,7 @@
   }
   body .month {
     position: absolute;
-    width: 88px;
-    height: 130px;
-    left: 138.62px;
-    top: 249px;
+    left: 127px;
   }
   body .column-two {
     position: absolute;
@@ -80,10 +116,7 @@
   }
   body .year {
     position: absolute;
-    width: 82.76px;
-    height: 130px;
-    left: 247.24px;
-    top: 249px;
+    left: 236px;
   }
   .toCount {
     position: absolute;
