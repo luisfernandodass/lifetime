@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  color: #FFFFFF;
 }
 
 @media screen and (max-width: 1024px) {
@@ -38,7 +39,6 @@
             align-items: center;
     text-align: center;
     height: 38px;
-    color: #FFFFFF;
   }
   body .dataPastAndPresent .pastData {
     position: absolute;
@@ -55,17 +55,6 @@
     width: 87px;
     left: 220px;
   }
-  body .bornData-title {
-    position: absolute;
-    width: 115px;
-    height: 14px;
-    left: 26px;
-    top: 208px;
-    font-family: Nunito, sans-serif;
-    font-size: 12px;
-    text-align: center;
-    color: #FFFFFF;
-  }
   body .result {
     position: absolute;
     font-family: Bebas Neue, sans-serif;
@@ -75,50 +64,52 @@
             transform: translate(-50%, -50%);
     font-size: 36px;
     line-height: 43px;
-    color: #FFFFFF;
   }
-  body .partOfTheData {
-    position: relative;
-    font-family: Bebas Neue, sans-serif;
-    font-size: 28px;
-    display: block;
-    color: #FFFFFF;
-    width: 95px;
+  body .bornData-title {
+    position: absolute;
+    width: 115px;
+    height: 14px;
+    left: 26px;
+    top: 208px;
+    font-family: Nunito, sans-serif;
+    font-size: 12px;
     text-align: center;
-    padding-right: 0;
-    top: 290px;
   }
-  body .day {
+  body .bornData-input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 250px;
     position: absolute;
-    left: 30px;
+    margin-top: 85%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  body .column-one {
-    position: absolute;
-    width: 12.41px;
+  body .bornData-input .column-one {
+    width: 12px;
     height: 130px;
-    left: 113.79px;
-    top: 249px;
     background: -webkit-gradient(linear, left top, left bottom, from(#80FFEA), to(rgba(255, 255, 255, 0))), rgba(149, 128, 255, 0.9);
     background: linear-gradient(180deg, #80FFEA 0%, rgba(255, 255, 255, 0) 100%), rgba(149, 128, 255, 0.9);
   }
-  body .month {
-    position: absolute;
-    left: 127px;
-  }
-  body .column-two {
-    position: absolute;
-    width: 12.41px;
+  body .bornData-input .column-two {
+    width: 12px;
     height: 130px;
-    left: 222.41px;
-    top: 249px;
     background: -webkit-gradient(linear, left top, left bottom, from(#80FFEA), to(rgba(255, 255, 255, 0))), rgba(149, 128, 255, 0.9);
     background: linear-gradient(180deg, #80FFEA 0%, rgba(255, 255, 255, 0) 100%), rgba(149, 128, 255, 0.9);
   }
-  body .year {
-    position: absolute;
-    left: 236px;
-  }
-  .toCount {
+  body .toCount {
     position: absolute;
     width: 300px;
     height: 55px;
@@ -127,10 +118,9 @@
     border: 0;
     background: #9580FF;
   }
-  .toCount h1 {
+  body .toCount h1 {
     font-family: Bebas Neue,sans-serif;
     font-size: 28px;
-    color: #FFFFFF;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -138,12 +128,12 @@
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
   }
-  .toCount:hover {
+  body .toCount:hover {
     background: #685f96;
     -webkit-transition: 2s;
     transition: 2s;
   }
-  footer {
+  body footer {
     position: absolute;
     width: 300px;
     left: 30px;
@@ -151,7 +141,6 @@
     font-family: Nunito, sans-serif;
     font-size: 10px;
     text-align: center;
-    color: #FFFFFF;
   }
 }
 /*# sourceMappingURL=main.css.map */

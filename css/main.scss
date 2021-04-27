@@ -1,13 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    color: #FFFFFF;
 }
 
 @media screen and (max-width:1024px){
 
-body{
+   body{
     background: #363636;
-   
 
     .container-title{
       position: absolute;
@@ -46,7 +46,6 @@ body{
 
     height: 38px;
 
-    color: #FFFFFF;
 
  
   .pastData{
@@ -71,19 +70,7 @@ body{
 
  }
 
- .bornData-title{
-    position: absolute;
-    width: 115px;
-    height: 14px;
-    left: 26px;
-    top: 208px;
-    
-    font-family: Nunito, sans-serif;
-    font-size: 12px;
-    text-align: center;
-    
-    color: #FFFFFF;
- }
+
 
  .result{
     position: absolute;
@@ -97,66 +84,56 @@ body{
     font-size: 36px;
     line-height: 43px;
     
-    color: #FFFFFF;
  }
 
- .partOfTheData{
-    position: relative;
-    font-family: Bebas Neue, sans-serif;
-
-    font-size: 28px;
-    display: block;
-    color: #FFFFFF;
+ .bornData-title{
+   position: absolute;
+   width: 115px;
+   height: 14px;
+   left: 26px;
+   top: 208px;
    
-    width: 95px;
-
-    text-align: center;
-    padding-right: 0;
-
-    top: 290px; 
- }
-
- .day{
-    position: absolute;
-    
-    left: 30px;
- }
-
- .column-one{
-    position: absolute;
-    width: 12.41px;
-    height: 130px;
-    left: 113.79px;
-    top: 249px;
-    
-    background: linear-gradient(180deg, #80FFEA 0%, rgba(255, 255, 255, 0) 100%), rgba(149, 128, 255, 0.9);
- }
-
-.month{
-    position: absolute;
-    
-    left: 127px;
+   font-family: Nunito, sans-serif;
+   font-size: 12px;
+   text-align: center;
+   
 }
 
- .column-two{
-    position: absolute;
-    width: 12.41px;
-    height: 130px;
-    left: 222.41px;
-    top: 249px;
+   .bornData-input{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      width: 250px;
+      position: absolute;
+      margin-top: 85%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+
+      align-items: center;
+
+ 
+      .column-one{
+        width: 12px;
+        height: 130px;
     
-    background: linear-gradient(180deg, #80FFEA 0%, rgba(255, 255, 255, 0) 100%), rgba(149, 128, 255, 0.9);
- }
+        background: linear-gradient(180deg, #80FFEA 0%, rgba(255, 255, 255, 0) 100%), rgba(149, 128, 255, 0.9);
+      }
 
- .year{
-    position: absolute;
+      .column-two{
+        width: 12px;
+        height: 130px;
     
-    left: 236px;
- }
+       background: linear-gradient(180deg, #80FFEA 0%, rgba(255, 255, 255, 0) 100%), rgba(149, 128, 255, 0.9);
+      }
 
-}
+   }
 
-.toCount{
+
+
+
+   .toCount{
     position: absolute;
     width: 300px;
     height: 55px;
@@ -168,25 +145,23 @@ body{
     background: #9580FF;
 
     h1{
-      font-family: Bebas Neue,sans-serif;
-      font-size: 28px;
+        font-family: Bebas Neue,sans-serif;
+        font-size: 28px;
 
-      color: #FFFFFF;
+        position: absolute;
 
-      position: absolute;
-
-      top: 50%;
-      left: 50%;
-      margin-right: -50%;
-      transform: translate(-50%, -50%);
-   } 
- }
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+      } 
+   }
 
  .toCount:hover{
     background: #685f96;
 
     transition: 2s;
- }
+   }
  
  footer{
     position: absolute;
@@ -198,7 +173,8 @@ body{
     font-size: 10px;
     text-align: center;
     
-    color: #FFFFFF;
- }
+   }
+
+}
 
 }
