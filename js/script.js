@@ -8,10 +8,10 @@ button.addEventListener("click", function(){
     var inputYear = document.getElementById("year").value;
     
     var currentDate = new Date();                                   // Pega a data atual   
-    var inputBirthDate = new Date(inputYear, inputMonth, inputDay);                     // Pega a data de nascimento
+    var inputBirthDate = new Date(inputYear, inputMonth - 1, inputDay);                     // Pega a data de nascimento
                       
     var difference =  currentDate.getTime() - inputBirthDate.getTime();  // Subtrai em millisegundos a data de nascimento da data atual
-    difference = (difference / 86400000) + 30;                     // 864000000 = 1 dia em millisegundos
+    difference = (difference / 86400000);                     // 864000000 = 1 dia em millisegundos
 
     var result = document.getElementById("result");
     result.textContent =  Math.floor(difference) + ' dias';           // Mostra resultado na tela

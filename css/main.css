@@ -1,12 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  color: #272525;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 1024px) {
   body {
-    background: #ebeaea;
+    background: #3d3b3b;
   }
   body .container-title {
     position: absolute;
