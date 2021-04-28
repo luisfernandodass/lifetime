@@ -1,13 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    color: #FFFFFF;
+    color: #272525;
 }
 
 @media screen and (max-width:1024px){
 
    body{
-    background: #363636;
+    background: #ebeaea;
 
     .container-title{
       position: absolute;
@@ -15,7 +15,7 @@
       height: 55px;
       left: 52px;
       top: 30px;
-      border-radius: 5px;
+      border-radius: 25px;
 
       background: rgba(128, 255, 234, 0.9);
 
@@ -34,11 +34,10 @@
     }     
  }
  
- .dataPastAndPresent{
+ .printDates{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     text-align: center;
 
     width: 250px;
@@ -46,7 +45,6 @@
     position: absolute;
     margin-top: 25%;
     left: 55px;
-
 
     font-family: Nunito, sans-serif;
     font-size: 10px;
@@ -60,97 +58,66 @@
     
     top: 30%;
     left: 50%;
-
     transform: translate(-50%, -50%);
   
     font-size: 36px;
-    line-height: 43px;
-    
  }
 
- .bornData-title{
+ .birthData-title{
    position: absolute;
-   width: 115px;
-   height: 14px;
    left: 26px;
    top: 208px;
    
    font-family: Nunito, sans-serif;
    font-size: 12px;
-   text-align: center;
-   
 }
 
    .birthData-input{
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: space-around;
 
-      width: 300px;
       position: absolute;
-      margin-top: 85%;
+      width: 300px;
+      top: 51%;
       left: 50%;
       margin-right: -50%;
       transform: translate(-50%, -50%);
 
-      align-items: center;
-      
-      .day{
-         width: 90px;
-         border: 0;
-
+      .inputDayAndMonth{
+         width: 80px;
          height: 130px;
 
-         color: rgb(255, 255, 255);
-         font-size: 40px;
-
-         text-align: center;
-
-         background: transparent;
-      }
-
-      .month{
-         width: 90px;
          border: 0;
 
-         height: 130px;
-
-         color: rgb(255, 255, 255);
          font-size: 40px;
 
-         text-align: center;
+         left: 10%;
 
          background: transparent;
-      }
-
-      .year{
-         width: 100px;
-         border: 0;
-
-         height: 130px;
-         
-         color: rgb(255, 255, 255);
-         font-size: 40px;
 
          text-align: center;
-
-         background: transparent;
       }
 
-      .column-one{
+      .inputYear{
          width: 100%;
+         height: 130px;
+
+         border: 0;
+
+         font-size: 40px;
+
+         text-align: center;
+
+         background: transparent;
+      }
+
+      .columns{
+         width: 20%;
          height: 130px;
          border-radius: 5px;
 
-        background: linear-gradient(180deg, #80FFEA 0%, rgba(255, 255, 255, 0) 100%), rgba(149, 128, 255, 0.9);
-      }
-
-      .column-two{
-        width: 100%;
-        height: 130px;
-        border-radius: 5px;
-
-       background: linear-gradient(180deg, #80FFEA 0%, rgba(255, 255, 255, 0) 100%), rgba(149, 128, 255, 0.9);
+         background: linear-gradient(180deg, #80FFEA 0%, rgba(255, 255, 255, 0) 100%), rgba(149, 128, 255, 0.9);
       }
 
    }
@@ -159,25 +126,20 @@
     position: absolute;
     width: 300px;
     height: 55px;
-    left: 30px;
     top: 428px;
 
     border: 0;
     border-radius: 5px;
     
     background: #9580FF;
+    color: white;
 
-    h1{
-        font-family: Bebas Neue,sans-serif;
-        font-size: 28px;
+    font-family: Bebas Neue,sans-serif;
+    font-size: 28px;
 
-        position: absolute;
-
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-      } 
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);     
    }
 
  .toCount:hover{
@@ -188,13 +150,13 @@
  
  footer{
     position: absolute;
-    width: 300px;
-    left: 30px;
-    top: 520px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);  
+    top: 85%;
     
     font-family: Nunito, sans-serif;
     font-size: 10px;
-    text-align: center;   
    }
 
 }

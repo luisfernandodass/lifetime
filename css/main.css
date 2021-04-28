@@ -1,12 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  color: #FFFFFF;
+  color: #272525;
 }
 
 @media screen and (max-width: 1024px) {
   body {
-    background: #363636;
+    background: #ebeaea;
   }
   body .container-title {
     position: absolute;
@@ -14,7 +14,7 @@
     height: 55px;
     left: 52px;
     top: 30px;
-    border-radius: 5px;
+    border-radius: 25px;
     background: rgba(128, 255, 234, 0.9);
   }
   body .container-title h1 {
@@ -28,7 +28,7 @@
             transform: translate(-50%, -50%);
     color: #363636;
   }
-  body .dataPastAndPresent {
+  body .printDates {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -39,9 +39,6 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     text-align: center;
     width: 250px;
     position: absolute;
@@ -59,17 +56,13 @@
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     font-size: 36px;
-    line-height: 43px;
   }
-  body .bornData-title {
+  body .birthData-title {
     position: absolute;
-    width: 115px;
-    height: 14px;
     left: 26px;
     top: 208px;
     font-family: Nunito, sans-serif;
     font-size: 12px;
-    text-align: center;
   }
   body .birthData-input {
     display: -webkit-box;
@@ -79,56 +72,35 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    width: 300px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     position: absolute;
-    margin-top: 85%;
+    width: 300px;
+    top: 51%;
     left: 50%;
     margin-right: -50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
-  body .birthData-input .day {
-    width: 90px;
-    border: 0;
+  body .birthData-input .inputDayAndMonth {
+    width: 80px;
     height: 130px;
-    color: white;
-    font-size: 40px;
-    text-align: center;
-    background: transparent;
-  }
-  body .birthData-input .month {
-    width: 90px;
     border: 0;
-    height: 130px;
-    color: white;
     font-size: 40px;
-    text-align: center;
+    left: 10%;
     background: transparent;
-  }
-  body .birthData-input .year {
-    width: 100px;
-    border: 0;
-    height: 130px;
-    color: white;
-    font-size: 40px;
     text-align: center;
-    background: transparent;
   }
-  body .birthData-input .column-one {
+  body .birthData-input .inputYear {
     width: 100%;
     height: 130px;
-    border-radius: 5px;
-    background: -webkit-gradient(linear, left top, left bottom, from(#80FFEA), to(rgba(255, 255, 255, 0))), rgba(149, 128, 255, 0.9);
-    background: linear-gradient(180deg, #80FFEA 0%, rgba(255, 255, 255, 0) 100%), rgba(149, 128, 255, 0.9);
+    border: 0;
+    font-size: 40px;
+    text-align: center;
+    background: transparent;
   }
-  body .birthData-input .column-two {
-    width: 100%;
+  body .birthData-input .columns {
+    width: 20%;
     height: 130px;
     border-radius: 5px;
     background: -webkit-gradient(linear, left top, left bottom, from(#80FFEA), to(rgba(255, 255, 255, 0))), rgba(149, 128, 255, 0.9);
@@ -138,17 +110,13 @@
     position: absolute;
     width: 300px;
     height: 55px;
-    left: 30px;
     top: 428px;
     border: 0;
     border-radius: 5px;
     background: #9580FF;
-  }
-  body .toCount h1 {
+    color: white;
     font-family: Bebas Neue,sans-serif;
     font-size: 28px;
-    position: absolute;
-    top: 50%;
     left: 50%;
     margin-right: -50%;
     -webkit-transform: translate(-50%, -50%);
@@ -161,12 +129,13 @@
   }
   body footer {
     position: absolute;
-    width: 300px;
-    left: 30px;
-    top: 520px;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    top: 85%;
     font-family: Nunito, sans-serif;
     font-size: 10px;
-    text-align: center;
   }
 }
 /*# sourceMappingURL=main.css.map */
