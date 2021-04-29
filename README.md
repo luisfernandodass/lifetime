@@ -2,7 +2,7 @@
 
 <h3>Sobre o projeto</h3>
 
-<p">Contar Dias Vividos é um site para você contar quantos dias já viveu desde o seu nascimento.</p>
+<p>Contar Dias Vividos é um site para você contar quantos dias já viveu desde o seu nascimento.</p>
 
 <h4> 
 	🚧  Contar dias vividos concluído em Abril, 2021.  🚧
