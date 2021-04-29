@@ -27,7 +27,8 @@
            margin-right: -50%;
            transform: translate(-50%, -50%);
            
-           color: #9580FF;         
+           color: #9580FF;   
+           font-weight: bold;      
     }
     
     .printDates{
@@ -102,7 +103,8 @@
    
             text-align: center;
 
-            color: #6e7271;
+
+            
          }
    
          .inputYear{
@@ -116,7 +118,7 @@
             text-align: center;
    
             background: transparent;
-            color: #6e7271;
+
 
          }
    
@@ -142,6 +144,8 @@
        
        background: #9580FF;
        color: white;
+       font-weight: bold;      
+
    
        font-family: 'Dekko', cursive;
        font-size: 28px;
@@ -193,7 +197,9 @@
          margin-right: -50%;
          transform: translate(-50%, -50%);
          
-         color: #9580FF;         
+         color: #9580FF;     
+         font-weight: bold;      
+    
   }
     
     .printDates{
@@ -298,7 +304,8 @@
        
        background: #9580FF;
        color: white;
-   
+       font-weight: bold;      
+
        font-size: 28px;
    
        left: 50%;

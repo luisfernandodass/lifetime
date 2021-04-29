@@ -7,7 +7,7 @@ button.addEventListener("click", function(){
     var inputMonth = document.getElementById("month").value;
     var inputYear = document.getElementById("year").value;
 
-    if (inputDay > 0 & inputDay <= 31 & inputMonth > 0 & inputMonth <= 12 & inputYear.length <= 4){
+    if (inputDay > 0 & inputDay <= 31 & inputMonth > 0 & inputMonth <= 12 & inputYear > 1 & inputYear.length <= 4){
    
     var currentDate = new Date();                                         // Pega a data atual   
     var inputBirthDate = new Date(inputYear, inputMonth - 1, inputDay);   // Pega a data de nascimento
