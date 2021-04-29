@@ -2,7 +2,6 @@ const button = document.getElementById("toCount");
 
 
 button.addEventListener("click", function(){
-
   
     var inputDay = document.getElementById("day").value;
     var inputMonth = document.getElementById("month").value;

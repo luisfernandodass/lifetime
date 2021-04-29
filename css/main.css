@@ -6,20 +6,29 @@
 
 @media screen and (max-width: 1024px) {
   body {
-    background: #3d3b3b;
+    background: #fdfdfd;
   }
-  body .container-title {
-    position: absolute;
+  body .container {
+    position: fixed;
+    background: #3d3b3b;
+    height: 100%;
+    width: 100%;
+  }
+  body .container .container-title {
+    position: fixed;
     width: 255px;
     height: 55px;
-    left: 52px;
-    top: 30px;
+    top: 10%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     border-radius: 25px;
     background: rgba(128, 255, 234, 0.9);
   }
-  body .container-title h1 {
+  body .container .container-title h1 {
     font-family: Bebas Neue, sans-serif;
-    position: absolute;
+    position: fixed;
     font-size: 18px;
     top: 50%;
     left: 50%;
@@ -28,7 +37,7 @@
             transform: translate(-50%, -50%);
     color: #363636;
   }
-  body .printDates {
+  body .container .printDates {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -41,14 +50,18 @@
             justify-content: space-between;
     text-align: center;
     width: 250px;
-    position: absolute;
-    margin-top: 25%;
+    position: fixed;
     left: 55px;
+    top: 19%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     font-family: Nunito, sans-serif;
     font-size: 10px;
     height: 38px;
   }
-  body .result {
+  body .container .result {
     position: absolute;
     font-family: Bebas Neue, sans-serif;
     top: 30%;
@@ -57,14 +70,17 @@
             transform: translate(-50%, -50%);
     font-size: 36px;
   }
-  body .birthData-title {
-    position: absolute;
-    left: 26px;
-    top: 208px;
+  body .container .birthData-title {
+    position: fixed;
+    top: 35%;
+    left: 25%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     font-family: Nunito, sans-serif;
-    font-size: 12px;
+    font-size: 100%;
   }
-  body .birthData-input {
+  body .container .birthData-input {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -74,7 +90,7 @@
             flex-direction: row;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    position: absolute;
+    position: fixed;
     width: 300px;
     top: 51%;
     left: 50%;
@@ -82,7 +98,7 @@
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
   }
-  body .birthData-input .inputDayAndMonth {
+  body .container .birthData-input .inputDayAndMonth {
     width: 80px;
     height: 130px;
     border: 0;
@@ -91,7 +107,7 @@
     background: transparent;
     text-align: center;
   }
-  body .birthData-input .inputYear {
+  body .container .birthData-input .inputYear {
     width: 100%;
     height: 130px;
     border: 0;
@@ -99,18 +115,18 @@
     text-align: center;
     background: transparent;
   }
-  body .birthData-input .columns {
+  body .container .birthData-input .columns {
     width: 20%;
     height: 130px;
     border-radius: 5px;
     background: -webkit-gradient(linear, left top, left bottom, from(#80FFEA), to(rgba(255, 255, 255, 0))), rgba(149, 128, 255, 0.9);
     background: linear-gradient(180deg, #80FFEA 0%, rgba(255, 255, 255, 0) 100%), rgba(149, 128, 255, 0.9);
   }
-  body .toCount {
-    position: absolute;
+  body .container .toCount {
+    position: fixed;
     width: 300px;
     height: 55px;
-    top: 428px;
+    top: 73%;
     border: 0;
     border-radius: 5px;
     background: #9580FF;
@@ -122,13 +138,168 @@
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
   }
-  body .toCount:hover {
+  body .container .toCount:hover {
     background: #685f96;
     -webkit-transition: 2s;
     transition: 2s;
   }
   body footer {
+    position: fixed;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    top: 85%;
+    font-family: Nunito, sans-serif;
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  body {
+    background: #fdfdfd;
+  }
+  body .container {
+    position: fixed;
+    background: #3d3b3b;
+    height: 100%;
+    width: 30%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 35%;
+    border-radius: 36px;
+  }
+  body .container .container-title {
+    position: fixed;
+    width: 255px;
+    height: 55px;
+    top: 10%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    border-radius: 25px;
+    background: rgba(128, 255, 234, 0.9);
+  }
+  body .container .container-title h1 {
+    font-family: Bebas Neue, sans-serif;
+    position: fixed;
+    font-size: 18px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    color: #363636;
+  }
+  body .container .printDates {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: center;
+    width: 250px;
+    position: fixed;
+    left: 55px;
+    top: 19%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-family: Nunito, sans-serif;
+    font-size: 10px;
+    height: 38px;
+  }
+  body .container .result {
     position: absolute;
+    font-family: Bebas Neue, sans-serif;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-size: 36px;
+  }
+  body .container .birthData-title {
+    position: fixed;
+    top: 35%;
+    left: 45%;
+    margin-right: -50%;
+    -webkit-transform: translate(-80%, -50%);
+            transform: translate(-80%, -50%);
+    font-family: Nunito, sans-serif;
+    font-size: 100%;
+  }
+  body .container .birthData-input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    position: fixed;
+    width: 300px;
+    top: 51%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  body .container .birthData-input .inputDayAndMonth {
+    width: 80px;
+    height: 130px;
+    border: 0;
+    font-size: 40px;
+    left: 10%;
+    background: transparent;
+    text-align: center;
+  }
+  body .container .birthData-input .inputYear {
+    width: 100%;
+    height: 130px;
+    border: 0;
+    font-size: 40px;
+    text-align: center;
+    background: transparent;
+  }
+  body .container .birthData-input .columns {
+    width: 20%;
+    height: 130px;
+    border-radius: 5px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#80FFEA), to(rgba(255, 255, 255, 0))), rgba(149, 128, 255, 0.9);
+    background: linear-gradient(180deg, #80FFEA 0%, rgba(255, 255, 255, 0) 100%), rgba(149, 128, 255, 0.9);
+  }
+  body .container .toCount {
+    position: fixed;
+    width: 300px;
+    height: 55px;
+    top: 70%;
+    border: 0;
+    border-radius: 5px;
+    background: #9580FF;
+    color: white;
+    font-family: Bebas Neue,sans-serif;
+    font-size: 28px;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  body .container .toCount:hover {
+    background: #685f96;
+    -webkit-transition: 2s;
+    transition: 2s;
+  }
+  body footer {
+    position: fixed;
     left: 50%;
     margin-right: -50%;
     -webkit-transform: translate(-50%, -50%);
