@@ -94,6 +94,7 @@
     left: 10%;
     background: transparent;
     text-align: center;
+    color: #6e7271;
   }
   body .container .birthData-input .inputYear {
     width: 100%;
@@ -102,6 +103,7 @@
     font-size: 40px;
     text-align: center;
     background: transparent;
+    color: #6e7271;
   }
   body .container .birthData-input .columns {
     width: 20%;
