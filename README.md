@@ -8,12 +8,12 @@
 	Concluído em Abril, 2021. :heavy_check_mark:
 </h4>
  
- ### Tecnologias
-
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [JavaScript]
 - [Sass]
+
+<h4>:link: Link:</h4> https://contardiasvividos.netlify.app/
 
 ### Imagens
 
