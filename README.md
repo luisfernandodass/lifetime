@@ -13,7 +13,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [JavaScript]
 - [Sass]
 
-<h4>:link: Link:</h4> https://contardiasvividos.netlify.app/
+<h4>Link do site:</h4> https://contardiasvividos.netlify.app/ :link:
 
 ### Imagens
 
