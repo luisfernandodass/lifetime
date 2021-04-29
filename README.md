@@ -1,18 +1,8 @@
-# Contar Dias Vividos
-
 <h1 align="center">Contar Dias Vividos</h1>
 
 <h3 align="center">Sobre o projeto</h3>
 
 <p align="center">Contar Dias Vividos é um site para você contar quantos dias já viveu desde o seu nascimento.</p>
-
-<p align="center">
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#features">Features</a> • 
- <a href="#imagens">Imagens</a> • 
- <a href="#licença">Licença</a> • 
- <a href="#autor">Autor</a>
-</p>
 
 <h4 align="center"> 
 	🚧  Contar dias vividos concluído em Abril, 2021.  🚧
@@ -24,16 +14,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - [JavaScript]
 - [Sass]
-
-### Features
-
-- [x] Tela inicial
-- [x] Tela de doação
-- [x] Comunidade
-- [x] Perfil
-- [x] Login
-- [x] Cadastro
-- [x] Quem Somos
 
 ### Imagens
 
