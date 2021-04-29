@@ -28,7 +28,7 @@ button.addEventListener("click", function(){
     trait.textContent = '- ' ;
 
     var birthDataTitle = document.getElementById("birthData-title");
-    birthDataTitle = '';
+    birthDataTitle.textContent = '';
 
     } else {
         var result = document.getElementById("result");

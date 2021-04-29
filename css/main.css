@@ -107,7 +107,8 @@
     width: 20%;
     height: 130px;
     border-radius: 5px;
-    background: #9580FF;
+    background: -webkit-gradient(linear, left top, left bottom, from(#80FFEA), to(rgba(255, 255, 255, 0))), rgba(149, 128, 255, 0.9);
+    background: linear-gradient(180deg, #80FFEA 0%, rgba(255, 255, 255, 0) 100%), rgba(149, 128, 255, 0.9);
   }
   body .container .toCount {
     position: fixed;
@@ -126,11 +127,6 @@
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
   }
-  body .container .toCount:hover {
-    background: #685f96;
-    -webkit-transition: 2s;
-    transition: 2s;
-  }
   body footer {
     position: fixed;
     left: 50%;
@@ -145,11 +141,11 @@
 
 @media screen and (min-width: 1025px) {
   body {
-    background: #fdfdfd;
+    background: #3d3b3b;
   }
   body .container {
     position: fixed;
-    background: #3d3b3b;
+    background: #ffffff;
     height: 100%;
     width: 30%;
     margin-top: 1%;
@@ -157,28 +153,15 @@
     margin-left: 35%;
     border-radius: 36px;
   }
-  body .container .container-title {
+  body .container .title {
     position: fixed;
-    width: 255px;
-    height: 55px;
+    font-size: 28px;
     top: 10%;
     left: 50%;
     margin-right: -50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    border-radius: 25px;
-    background: rgba(128, 255, 234, 0.9);
-  }
-  body .container .container-title h1 {
-    font-family: Bebas Neue, sans-serif;
-    position: fixed;
-    font-size: 18px;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    color: #363636;
+    color: #9580FF;
   }
   body .container .printDates {
     display: -webkit-box;
@@ -200,8 +183,7 @@
     margin-right: -50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    font-family: Nunito, sans-serif;
-    font-size: 10px;
+    font-size: 13px;
     height: 38px;
   }
   body .container .result {
@@ -220,7 +202,6 @@
     margin-right: -50%;
     -webkit-transform: translate(-80%, -50%);
             transform: translate(-80%, -50%);
-    font-family: Nunito, sans-serif;
     font-size: 100%;
   }
   body .container .birthData-input {
@@ -274,7 +255,6 @@
     border-radius: 5px;
     background: #9580FF;
     color: white;
-    font-family: Bebas Neue,sans-serif;
     font-size: 28px;
     left: 50%;
     margin-right: -50%;
@@ -293,7 +273,6 @@
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     top: 85%;
-    font-family: 'Dekko', cursive;
     font-size: 10px;
   }
 }
