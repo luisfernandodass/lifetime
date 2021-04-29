@@ -27,6 +27,9 @@ button.addEventListener("click", function(){
     var trait = document.getElementById("trait");
     trait.textContent = '- ' ;
 
+    var birthDataTitle = document.getElementById("birthData-title");
+    birthDataTitle = '';
+
     } else {
         var result = document.getElementById("result");
         result.textContent =  'Data inválida'; 
