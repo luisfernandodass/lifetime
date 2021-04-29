@@ -1,46 +1,33 @@
 *{
     margin: 0;
     padding: 0;
-    color: #ffffff;
+    color: #000000;
+    font-family: 'Dekko', cursive;
+
 }
 
 @media screen and (max-width:1024px){
 
    body{
-    background: #fdfdfd;
+    background: #ffffff;
 
    .container{
       position: fixed;
-      background: #3d3b3b;
       height: 100%;
       width: 100%;
   
-      .container-title{
-         position: fixed;
-         width: 255px;
-         height: 55px;
-         top: 10%;
-         left: 50%;
-         margin-right: -50%;
-         transform: translate(-50%, -50%);  
-   
-         border-radius: 25px;
-   
-         background: rgba(128, 255, 234, 0.9);
-   
-       h1{
-           font-family: Bebas Neue, sans-serif;
+      .title{
+           font-family: 'Dekko', cursive;
            position: fixed;
            
-           font-size: 18px;
+           font-size: 22px;
    
-           top: 50%;
+           top: 10%;
            left: 50%;
            margin-right: -50%;
            transform: translate(-50%, -50%);
            
-           color: #363636;
-       }     
+           color: #9580FF;         
     }
     
     .printDates{
@@ -59,7 +46,7 @@
        transform: translate(-50%, -50%);
    
        font-family: Nunito, sans-serif;
-       font-size: 10px;
+       font-size: 11px;
    
        height: 38px;
      }
@@ -68,7 +55,7 @@
        position: absolute;
        font-family: Bebas Neue, sans-serif;
        
-       top: 30%;
+       top: 27%;
        left: 50%;
        transform: translate(-50%, -50%);
      
@@ -82,7 +69,7 @@
        margin-right: -50%;
        transform: translate(-50%, -50%); 
 
-       font-family: Nunito, sans-serif;
+       font-family: 'Dekko', cursive;
        font-size: 100%;
     }
    
@@ -97,6 +84,7 @@
          left: 50%;
          margin-right: -50%;
          transform: translate(-50%, -50%);
+
    
          .inputDayAndMonth{
             width: 80px;
@@ -131,7 +119,8 @@
             height: 130px;
             border-radius: 5px;
    
-            background: linear-gradient(180deg, #80FFEA 0%, rgba(255, 255, 255, 0) 100%), rgba(149, 128, 255, 0.9);
+            background:  #9580FF;         
+            
          }
    
       }
@@ -148,9 +137,9 @@
        background: #9580FF;
        color: white;
    
-       font-family: Bebas Neue,sans-serif;
+       font-family: 'Dekko', cursive;
        font-size: 28px;
-   
+       text-transform: uppercase;
        left: 50%;
        margin-right: -50%;
        transform: translate(-50%, -50%);     
@@ -169,7 +158,7 @@
        transform: translate(-50%, -50%);  
        top: 85%;
        
-       font-family: Nunito, sans-serif;
+       font-family: 'Dekko', cursive;
        font-size: 10px;
       }
    }
@@ -341,13 +330,13 @@
       }  
     }
     footer{
-      position: fixed;
+       position: fixed;
        left: 50%;
        margin-right: -50%;
        transform: translate(-50%, -50%);  
        top: 85%;
        
-       font-family: Nunito, sans-serif;
+       font-family: 'Dekko', cursive;
        font-size: 10px;
       }
    }
