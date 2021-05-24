@@ -1,6 +1,6 @@
 <h1>Contar Dias Vividos</h1>
 
-<h3>Sobre o projeto</h3>
+<h3>Objetivo</h3>
 
 <p>Contar Dias Vividos é um site para você contar quantos dias já viveu desde o seu nascimento.</p>
 
@@ -10,8 +10,10 @@
  
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [JavaScript]
-- [Sass]
+- JavaScript
+- Sass
+- HTML
+- Figma
 
 <h4>Link do site: https://contardiasvividos.netlify.app/ :link:</h4> 
 
