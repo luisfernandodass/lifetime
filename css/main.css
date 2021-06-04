@@ -50,8 +50,10 @@
    
     width: 100%;
     text-align: center;
-    margin-top: 5%;
+   
     font-size: 36px;
+
+    text-transform: uppercase;
   }
 
   .birthData-input {
@@ -108,7 +110,7 @@
     width: 300px;
     height: 55px;
 
-    margin-top: 5%;
+    margin-top: 3%;
     
     border: 0;
     border-radius: 30px;
