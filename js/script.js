@@ -41,4 +41,4 @@ function lifeTime() {
 }
 
 const button = document.getElementById("toCount");
-button.addEventListener("click", lifeTime());
+button.addEventListener("click", lifeTime);
