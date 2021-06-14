@@ -1,38 +1,44 @@
-const button = document.getElementById("toCount");
+let inputDay, inputMonth, inputYear;
+let currentDate, inputBirthDate, difference, result, printBirthDate, printCurrentDate, trait, birthDataTitle;
 
+function lifeTime() {
+    inputDay = document.getElementById("day").value;
+    inputMonth = document.getElementById("month").value;
+    inputYear = document.getElementById("year").value;
 
-button.addEventListener("click", function(){
-  
-    var inputDay = document.getElementById("day").value;
-    var inputMonth = document.getElementById("month").value;
-    var inputYear = document.getElementById("year").value;
+    if (inputDay > 0
+        & inputDay <= 31
+        & inputMonth > 0
+        & inputMonth <= 12
+        & inputYear > 1
+        & inputYear.length <= 4) {
 
-    if (inputDay > 0 & inputDay <= 31 & inputMonth > 0 & inputMonth <= 12 & inputYear > 1 & inputYear.length <= 4){
-   
-    var currentDate = new Date();                                         // Pega a data atual   
-    var inputBirthDate = new Date(inputYear, inputMonth - 1, inputDay);   // Pega a data de nascimento
-                      
-    var difference =  currentDate.getTime() - inputBirthDate.getTime();  // Subtrai em millisegundos a data de nascimento da data atual
-    difference = (difference / 86400000);                                // 864000000 = 1 dia em millisegundos
+        currentDate = new Date();                                        // Get the current date  
+        inputBirthDate = new Date(inputYear, inputMonth - 1, inputDay);  // Get the birth date
 
-    var result = document.getElementById("result");
-    result.textContent =  Math.floor(difference) + ' dias';             // Mostra resultado na tela
+        difference = currentDate.getTime() - inputBirthDate.getTime();  // Subtract the current date from the birth date in milliseconds
+        difference = (difference / 86400000);                           // 864000000 it's equal 1 day in milliseconds
 
-    var printBirthDate = document.getElementById("printBirthDate");
-    printBirthDate.textContent  = 'Data de nascimento: ' + inputBirthDate.toLocaleDateString();
-    
-    var printCurrentDate = document.getElementById("printCurrentDate");
-    printCurrentDate.textContent = 'Data atual: ' + currentDate.toLocaleDateString();
+        result = document.getElementById("result");
+        result.textContent = Math.floor(difference) + ' dias';          // Show the right result on the screen
 
-    var trait = document.getElementById("trait");
-    trait.textContent = '- ' ;
+        printBirthDate = document.getElementById("printBirthDate");
+        printBirthDate.textContent = 'Data de nascimento: ' + inputBirthDate.toLocaleDateString();
 
-    var birthDataTitle = document.getElementById("birthData-title");
-    birthDataTitle.textContent = '';
+        printCurrentDate = document.getElementById("printCurrentDate");
+        printCurrentDate.textContent = 'Data atual: ' + currentDate.toLocaleDateString();
+
+        trait = document.getElementById("trait");
+        trait.textContent = '- ';
+
+        birthDataTitle = document.getElementById("birthData-title");
+        birthDataTitle.textContent = '';
 
     } else {
-        var result = document.getElementById("result");
-        result.textContent =  'Data inválida'; 
+        result = document.getElementById("result"); // Case we've some mistake
+        result.textContent = 'Data inválida';
     }
+}
 
-});
+const button = document.getElementById("toCount");
+button.addEventListener("click", lifeTime());
