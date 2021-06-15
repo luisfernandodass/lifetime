@@ -1,334 +1,99 @@
-*{
-    margin: 0;
-    padding: 0;
-    color: #000000;
-    font-family: 'Dekko', cursive;
-
-}
-
-@media screen and (max-width:1024px){
-
-   body{
-    background: #ffffff;
-
-   .container{
-      position: fixed;
-      height: 100%;
-      width: 100%;
-  
-      .title{
-           font-family: 'Dekko', cursive;
-           position: fixed;
-           
-           font-size: 22px;
-   
-           top: 10%;
-           left: 50%;
-           margin-right: -50%;
-           transform: translate(-50%, -50%);
-           
-           color: #9580FF;   
-           font-weight: bold;      
-    }
-    
-    .printDates{
-       display: flex;
-       flex-direction: row;
-       justify-content: space-between;
-       text-align: center;
-   
-       width: 250px;
-      
-       position: fixed;
-       left: 55px;
-       top: 19%;
-       left: 50%;
-       margin-right: -50%;
-       transform: translate(-50%, -50%);
-   
-       font-family: Nunito, sans-serif;
-       font-size: 11px;
-   
-       height: 38px;
-     }
-   
-    .result{
-       position: absolute;
-       font-family: Bebas Neue, sans-serif;
-       
-       top: 27%;
-       left: 50%;
-       transform: translate(-50%, -50%);
-     
-       font-size: 36px;
-    }
-   
-    .birthData-title{
-       position: fixed;
-       top: 35%;
-       left: 25%;
-       margin-right: -50%;
-       transform: translate(-50%, -50%); 
-
-       font-family: 'Dekko', cursive;
-       font-size: 100%;
-    }
-   
-      .birthData-input{
-         display: flex;
-         flex-direction: row;
-         justify-content: space-around;
-   
-         position: fixed;
-         width: 300px;
-         top: 51%;
-         left: 50%;
-         margin-right: -50%;
-         transform: translate(-50%, -50%);
-
-        
-
-   
-         .inputDayAndMonth{
-            width: 80px;
-            height: 130px;
-   
-            border: 0;
-   
-            font-size: 40px;
-   
-            left: 10%;
-   
-            background: transparent;
-   
-            text-align: center;
-
-
-            
-         }
-   
-         .inputYear{
-            width: 100%;
-            height: 130px;
-   
-            border: 0;
-   
-            font-size: 40px;
-   
-            text-align: center;
-   
-            background: transparent;
-
-
-         }
-   
-         .columns{
-            width: 20%;
-            height: 130px;
-            border-radius: 5px;
-   
-            background: linear-gradient(180deg, #80FFEA 0%, rgba(255, 255, 255, 0) 100%), rgba(149, 128, 255, 0.9);
-            
-         }
-   
-      }
-   
-      .toCount{
-       position: fixed;
-       width: 300px;
-       height: 55px;
-       top: 73%;
-   
-       border: 0;
-       border-radius: 5px;
-       
-       background: #9580FF;
-       color: white;
-       font-weight: bold;      
-
-   
-       font-family: 'Dekko', cursive;
-       font-size: 28px;
-       text-transform: uppercase;
-       left: 50%;
-       margin-right: -50%;
-       transform: translate(-50%, -50%);     
-      }
-   
-    }
-    footer{
-      position: fixed;
-       left: 50%;
-       margin-right: -50%;
-       transform: translate(-50%, -50%);  
-       top: 85%;
-       
-       font-family: 'Dekko', cursive;
-       font-size: 10px;
-      }
-   }
-
-}
-
-@media screen and (min-width:1025px){
-
-   body{
-    background: #3d3b3b;
-
-   .container{
-      position: fixed;
-      background: #ffffff;
-      height: 100%;
-      width: 30%;
-      
-      margin-top: 1%;
-      margin-bottom: 1%;
-
-      margin-left: 35%;
-      border-radius: 36px;
-  
-      .title{
-         position: fixed;
-         
-         font-size: 28px;
+* {
+   margin: 0;
+   padding: 0;
+   color: #363636;
+   font-family: 'Roboto', sans-serif;
+ }
  
-         top: 10%;
-         left: 50%;
-         margin-right: -50%;
-         transform: translate(-50%, -50%);
-         
-         color: #9580FF;     
-         font-weight: bold;      
-    
-  }
-    
-    .printDates{
-       display: flex;
-       flex-direction: row;
-       justify-content: space-between;
-       text-align: center;
+ @media screen and (max-width: 1024px) {
+   body {
+     background: #ffffff;
    
-       width: 250px;
-      
-       position: fixed;
-       left: 55px;
-       top: 19%;
-       left: 50%;
-       margin-right: -50%;
-       transform: translate(-50%, -50%);
+   .container {
+     height: 620px;
+     width: 360px;
    
-       font-size: 13px;
-   
-       height: 38px;
-     }
-   
-    .result{
-       position: absolute;
-       font-family: Bebas Neue, sans-serif;
-   
-       top: 30%;
-       left: 50%;
-       transform: translate(-50%, -50%);
-     
-       font-size: 36px;
-    }
-   
-    .birthData-title{
-       position: fixed;
-       top: 35%;
-       left: 45%;
-       margin-right: -50%;
-       transform: translate(-80%, -50%); 
-
-       font-size: 100%;
-    }
-   
-      .birthData-input{
-         display: flex;
-         flex-direction: row;
-         justify-content: space-around;
-   
-         position: fixed;
-         width: 300px;
-         top: 51%;
-         left: 50%;
-         margin-right: -50%;
-         transform: translate(-50%, -50%);
-   
-         .inputDayAndMonth{
-            width: 80px;
-            height: 130px;
-   
-            border: 0;
-   
-            font-size: 40px;
-   
-            left: 10%;
-   
-            background: transparent;
-   
-            text-align: center;
-         }
-   
-         .inputYear{
-            width: 100%;
-            height: 130px;
-   
-            border: 0;
-   
-            font-size: 40px;
-   
-            text-align: center;
-   
-            background: transparent;
-         }
-   
-         .columns{
-            width: 20%;
-            height: 130px;
-            border-radius: 5px;
-   
-            background: linear-gradient(180deg, #80FFEA 0%, rgba(255, 255, 255, 0) 100%), rgba(149, 128, 255, 0.9);
-         }
-   
-      }
-   
-      .toCount{
-         position: fixed;
-         width: 300px;
-       height: 55px;
-       top: 70%;
-   
-       border: 0;
-       border-radius: 5px;
-       
-       background: #9580FF;
-       color: white;
-       font-weight: bold;      
-
-       font-size: 28px;
-   
-       left: 50%;
-       margin-right: -50%;
-       transform: translate(-50%, -50%);     
-      }
-   
-    .toCount:hover{
-       background: #685f96;
-   
-       transition: 2s;
-      }  
-    }
-    footer{
-       position: fixed;
-       left: 50%;
-       margin-right: -50%;
-       transform: translate(-50%, -50%);  
-       top: 85%;
-       
-       font-size: 10px;
-      }
+    .title {
+     font-family: 'Shadows Into Light', cursive;
+     width: 100%;
+     text-align: center;
+     color: #249ED2;
+     font-size: 48px;
+     font-weight: 700;
+     margin-top: 5%;
    }
-
+   .printDates {
+     display: flex;
+     text-align: center;
+     font-size: 15px;
+   
+   }
+   .result {
+     font-size: 36px;
+     width: 100%;
+     text-align: center;
+     margin-top: 10%;
+     position: absolute;
+     text-transform: uppercase;
+   }
 }
 
+  .birthData-input { 
+     display: flex;
+    
+     margin-left: 8%;
+     margin-top: 30%;
+   
+   .inputDayAndMonth {
+     width: 80px;
+     height: 130px;
+     border: 0;
+     font-size: 40px;
+     left: 10%;
+     background: transparent;
+     text-align: center;
+   }
+   .inputYear {
+     width: 70%;
+     height: 130px;
+     border: 0;
+     font-size: 40px;
+     text-align: center;
+     background: transparent;
+     padding-left: 10%;
+   }
+   .columns {
+     width: 10%;
+     border-radius: 5px;
+     background: #249ED2;
+   }
+}
+
+.container-button{
+   width: 100%;
+   text-align: center;
+   margin-top: 5%;
+
+  .toCount {
+     width: 300px;
+     height: 55px;
+     border: 0;
+     border-radius: 24px;
+     background: #249ED2;
+     color: white;
+     font-size: 28px;
+   }
+   .toCount:hover {
+     background:rgb(35, 123, 161);
+     cursor: pointer;
+   }
+}
+   footer {
+     font-size: 10px;
+     width: 100%;
+     text-align: center;
+     margin-top: 10%;
+   }
+ }
+}
+ /*# sourceMappingURL=main.css.map */
