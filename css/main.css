@@ -31,7 +31,7 @@
   }
   body .container .result {
     font-size: 36px;
-    width: 100%;
+    width: 360px;
     text-align: center;
     margin-top: 10%;
     position: absolute;
@@ -71,6 +71,101 @@
     width: 100%;
     text-align: center;
     margin-top: 5%;
+  }
+  body .container-button .toCount {
+    width: 300px;
+    height: 55px;
+    border: 0;
+    border-radius: 24px;
+    background: #249ED2;
+    color: white;
+    font-size: 28px;
+  }
+  body .container-button .toCount:hover {
+    background: #237ba1;
+    cursor: pointer;
+  }
+  body footer {
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  body {
+    background: #f7f0f0;
+  }
+  body .container {
+    background: #ffffff;
+    height: 600px;
+    width: 360px;
+    margin-left: 33%;
+    display: block;
+    bottom: 0;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+            box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  body .container .title {
+    font-family: 'Shadows Into Light', cursive;
+    width: 100%;
+    text-align: center;
+    color: #249ED2;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 5%;
+  }
+  body .container .printDates {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+  }
+  body .container .result {
+    font-size: 36px;
+    position: absolute;
+    text-align: center;
+    margin-top: 5%;
+    padding-left: 6%;
+    text-transform: uppercase;
+  }
+  body .birthData-input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 8%;
+    margin-top: 40%;
+  }
+  body .birthData-input .inputDayAndMonth {
+    width: 80px;
+    height: 130px;
+    border: 0;
+    font-size: 40px;
+    left: 10%;
+    background: transparent;
+    text-align: center;
+  }
+  body .birthData-input .inputYear {
+    width: 70%;
+    height: 130px;
+    border: 0;
+    font-size: 40px;
+    text-align: center;
+    background: transparent;
+    padding-left: 10%;
+  }
+  body .birthData-input .columns {
+    width: 10%;
+    border-radius: 5px;
+    background: #249ED2;
+  }
+  body .container-button {
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
   }
   body .container-button .toCount {
     width: 300px;

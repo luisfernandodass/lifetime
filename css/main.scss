@@ -30,7 +30,7 @@
    }
    .result {
      font-size: 36px;
-     width: 100%;
+     width: 360px;
      text-align: center;
      margin-top: 10%;
      position: absolute;
@@ -95,5 +95,103 @@
      margin-top: 10%;
    }
  }
+}
+
+@media screen and (min-width: 1025px) {
+  body {
+    background: #f7f0f0;
+   
+  .container {
+    background: #ffffff;
+    height: 600px;
+    width: 360px;
+    margin-left: 33%;
+    display: block;
+    bottom: 0;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
+    
+   .title {
+    font-family: 'Shadows Into Light', cursive;
+    width: 100%;
+    text-align: center;
+    color: #249ED2;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 5%;
+  }
+  .printDates {
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+  
+  }
+  .result {
+    font-size: 36px;
+    position: absolute;
+    text-align: center;
+    margin-top: 5%;
+    padding-left: 6%;
+    text-transform: uppercase;
+  }
+}
+
+ .birthData-input { 
+    display: flex;
+   
+    margin-left: 8%;
+    margin-top: 40%;
+  
+  .inputDayAndMonth {
+    width: 80px;
+    height: 130px;
+    border: 0;
+    font-size: 40px;
+    left: 10%;
+    background: transparent;
+    text-align: center;
+  }
+  .inputYear {
+    width: 70%;
+    height: 130px;
+    border: 0;
+    font-size: 40px;
+    text-align: center;
+    background: transparent;
+    padding-left: 10%;
+  }
+  .columns {
+    width: 10%;
+    border-radius: 5px;
+    background: #249ED2;
+  }
+}
+
+.container-button{
+  width: 100%;
+  text-align: center;
+  margin-top: 10%;
+
+ .toCount {
+    width: 300px;
+    height: 55px;
+    border: 0;
+    border-radius: 24px;
+    background: #249ED2;
+    color: white;
+    font-size: 28px;
+  }
+  .toCount:hover {
+    background:rgb(35, 123, 161);
+    cursor: pointer;
+  }
+}
+  footer {
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+  }
+}
 }
  /*# sourceMappingURL=main.css.map */
