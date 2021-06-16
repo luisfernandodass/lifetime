@@ -1,8 +1,8 @@
-<h1>Contar Dias Vividos</h1>
+<h1>LifeTime</h1>
 
 <h3>Objetivo</h3>
 
-<p>Contar Dias Vividos é um site para você contar quantos dias já viveu desde o seu nascimento.</p>
+<p>LifeTime Vividos é um site para você contar quantos dias já viveu desde o seu nascimento.</p>
 
 <h4> 
 	Finalizado em Abril, 2021. :heavy_check_mark:
@@ -15,7 +15,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - HTML
 - Figma
 
-<h4>Link do site: https://contardiasvividos.netlify.app/ :link:</h4> 
+<h4>Link do site: https://lifetimee.netlify.app/ :link:</h4> 
 
 ### Imagens
 
