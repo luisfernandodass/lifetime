@@ -15,7 +15,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - HTML
 - Figma
 
-<h4>Link do site: https://lifetimee.netlify.app/ :link:</h4> 
+
+### Site
+https://lifetimee.netlify.app/ :link:
 
 ### Imagens
 
