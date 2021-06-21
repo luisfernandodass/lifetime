@@ -20,6 +20,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ### Imagens
 
 <img src="![image](https://user-images.githubusercontent.com/67171626/122769504-ff89dc00-d27a-11eb-99c1-d0e0f75392da.png)">  
+![image](https://user-images.githubusercontent.com/67171626/122769583-0ca6cb00-d27b-11eb-85f7-a0b0da784488.png)
 
 
 ### Licença
