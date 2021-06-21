@@ -19,7 +19,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ### Imagens
 
-<img src="https://github.com/luisfernandodass/IMAGENS/blob/main/contardiasvividos.img/dayslived01.png"> <img src="https://github.com/luisfernandodass/IMAGENS/blob/main/contardiasvividos.img/dayslived02.png"> 
+<img src="![image](https://user-images.githubusercontent.com/67171626/122769504-ff89dc00-d27a-11eb-99c1-d0e0f75392da.png)">  
 
 
 ### Licença
