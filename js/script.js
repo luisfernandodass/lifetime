@@ -29,7 +29,7 @@ function lifeTime() {
         printCurrentDate.textContent = 'Data atual: ' + currentDate.toLocaleDateString();
 
         trait = document.getElementById("trait");
-        trait.textContent = '  ';
+        trait.textContent = '- ';
 
         birthDataTitle = document.getElementById("birthData-title");
         birthDataTitle.textContent = '';

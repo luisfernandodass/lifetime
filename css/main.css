@@ -30,11 +30,12 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     text-align: center;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 5%;
     font-size: 15px;
   }
   body .container .result {

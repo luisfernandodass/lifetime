@@ -25,10 +25,10 @@
    .printDates {
      display: flex;
      flex-direction: row;
-     justify-content: space-around;
+     justify-content: space-between;
      text-align: center;
      margin-left: 5%;
-     margin-right: 5%;
+     margin-left: 5%;
      font-size: 15px;
    }
    .result {
