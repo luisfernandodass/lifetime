@@ -28,9 +28,15 @@
      justify-content: space-around;
      text-align: center;
      font-size: 15px;
-     margin-left: 6%;
+    
 
-     
+     .printBirthDate{
+           width: 16px;
+     }
+
+     .printCurrentDate{
+      width: 16px;
+     }
    
    }
    .result {
