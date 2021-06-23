@@ -26,6 +26,12 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     text-align: center;
     font-size: 15px;
   }
@@ -37,14 +43,14 @@
     position: absolute;
     text-transform: uppercase;
   }
-  body .birthData-input {
+  body .container .birthData-input {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-left: 8%;
     margin-top: 30%;
   }
-  body .birthData-input .inputDayAndMonth {
+  body .container .birthData-input .inputDayAndMonth {
     width: 80px;
     height: 130px;
     border: 0;
@@ -53,7 +59,7 @@
     background: transparent;
     text-align: center;
   }
-  body .birthData-input .inputYear {
+  body .container .birthData-input .inputYear {
     width: 70%;
     height: 130px;
     border: 0;
@@ -62,17 +68,17 @@
     background: transparent;
     padding-left: 10%;
   }
-  body .birthData-input .columns {
+  body .container .birthData-input .columns {
     width: 10%;
     border-radius: 5px;
     background: #249ED2;
   }
-  body .container-button {
+  body .container .container-button {
     width: 100%;
     text-align: center;
     margin-top: 5%;
   }
-  body .container-button .toCount {
+  body .container .container-button .toCount {
     width: 300px;
     height: 55px;
     border: 0;
@@ -81,11 +87,11 @@
     color: white;
     font-size: 28px;
   }
-  body .container-button .toCount:hover {
+  body .container .container-button .toCount:hover {
     background: #237ba1;
     cursor: pointer;
   }
-  body footer {
+  body .container footer {
     font-size: 10px;
     width: 100%;
     text-align: center;

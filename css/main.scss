@@ -24,6 +24,8 @@
    }
    .printDates {
      display: flex;
+     flex-direction: row;
+     justify-content: space-around;
      text-align: center;
      font-size: 15px;
    
@@ -36,11 +38,9 @@
      position: absolute;
      text-transform: uppercase;
    }
-}
 
   .birthData-input { 
      display: flex;
-    
      margin-left: 8%;
      margin-top: 30%;
    
@@ -95,6 +95,7 @@
      margin-top: 10%;
    }
  }
+}
 }
 
 @media screen and (min-width: 1025px) {
