@@ -1,5 +1,5 @@
 let inputDay, inputMonth, inputYear;
-let currentDate, inputBirthDate, difference, result, printBirthDate, printCurrentDate, birthDataTitle;
+let currentDate, inputBirthDate, difference, result, printBirthDate, printCurrentDate, trait, birthDataTitle;
 
 function lifeTime() {
     inputDay = document.getElementById("day").value;
@@ -28,8 +28,8 @@ function lifeTime() {
         printCurrentDate = document.getElementById("printCurrentDate");
         printCurrentDate.textContent = 'Data atual: ' + currentDate.toLocaleDateString();
 
-        //trait = document.getElementById("trait");
-        //trait.textContent = '- ';
+        trait = document.getElementById("trait");
+        trait.textContent = '  ';
 
         birthDataTitle = document.getElementById("birthData-title");
         birthDataTitle.textContent = '';
