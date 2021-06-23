@@ -10,7 +10,7 @@
     background: #ffffff;
   }
   body .container {
-    height: 540px;
+    height: 620px;
     width: 360px;
   }
   body .container .title {
@@ -30,9 +30,8 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
