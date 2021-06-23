@@ -25,19 +25,10 @@
    .printDates {
      display: flex;
      flex-direction: row;
-     justify-content: space-around;
+     justify-content: space-between;
      text-align: center;
+     margin-right: -5.5%;
      font-size: 15px;
-     width: 85%;
-
-     .printBirthDate{
-           width: 16px;
-     }
-
-     .printCurrentDate{
-      width: 16px;
-     }
-   
    }
    .result {
      font-size: 36px;
