@@ -34,7 +34,7 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     text-align: center;
-    margin-right: -5.5%;
+    margin: -5%;
     font-size: 15px;
   }
   body .container .result {
