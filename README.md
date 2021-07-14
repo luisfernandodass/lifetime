@@ -1,7 +1,6 @@
 # LifeTime
 
 ## Objective
-
 LifeTime is a website for you to count how many days you have lived.
 
 ## Host
