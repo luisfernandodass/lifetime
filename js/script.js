@@ -1,5 +1,6 @@
 let inputDay, inputMonth, inputYear;
 let currentDate, inputBirthDate, difference, result, printBirthDate, printCurrentDate, trait, birthDataTitle;
+const button = document.getElementById("toCount");
 
 function lifeTime() {
     inputDay = document.getElementById("day").value;
@@ -11,7 +12,8 @@ function lifeTime() {
         & inputMonth > 0
         & inputMonth <= 12
         & inputYear > 1
-        & inputYear.length <= 4) {
+        & inputYear.length <= 4) 
+        {
 
         currentDate = new Date();                                        // Get the current date  
         inputBirthDate = new Date(inputYear, inputMonth - 1, inputDay);  // Get the birth date
@@ -40,5 +42,4 @@ function lifeTime() {
     }
 }
 
-const button = document.getElementById("toCount");
 button.addEventListener("click", lifeTime);
