@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Shadows+Into+Light&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="./public/css/style.css">
     <title>LifeTime</title>
 </head>
 
@@ -16,33 +12,31 @@
     <div class="container">
         <div class="title">LifeTime</div>
         <div class="printDates">
-            <div id="printBirthDate"></div>
+            <div class="printBirthDate"></div>
 
-            <div id="trait"></div>
+            <div class="trait"></div>
 
-            <div id="printCurrentDate"></div>
+            <div class="printCurrentDate"></div>
         </div>
-        <div class="result" id="result"></div>
+        <div class="result" class="result"></div>
         <div class="birthData-input">
             <div>
-                <input class="inputDayAndMonth" id="day" placeholder="28" />
+                <input class="day" placeholder="28" />
             </div>
             <div class="columns"> </div>
             <div>
-                <input class="inputDayAndMonth" id="month" placeholder="10" />
+                <input class="month" placeholder="10" />
             </div>
             <div class="columns">
             </div>
             <div>
-                <input class="inputYear" id="year" placeholder="2002" />
+                <input class="year" placeholder="2002" />
             </div>
         </div>
-        <div class="container-button">
-            <button class="toCount" id="toCount">CONTAR</button>
-        </div>
-        <footer>Desenvolvido por Luis Fernando</footer>
+            <button class="toCount" class="toCount">CONTAR</button>
+        <footer>Desenvolvido por Luis Fernando, 2021.</footer>
     </div>
-    <script src="js/script.js"></script>
+    <script src="./public/js/countDaysLived.js"></script>
 </body>
 
 </html>
