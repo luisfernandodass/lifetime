@@ -18,7 +18,10 @@ The following tools were used to build the project:
 
 ## Images
 
-![image](https://user-images.githubusercontent.com/67171626/122769583-0ca6cb00-d27b-11eb-85f7-a0b0da784488.png)
+![lifetimee netlify app_(Galaxy S5)](https://user-images.githubusercontent.com/67171626/130481904-3531205c-bd3f-4ddc-a6d0-46c9de09a317.png)
+
+![lifetimee netlify app_(Galaxy S5) (1)](https://user-images.githubusercontent.com/67171626/130481932-104c75c6-cdef-4d7c-96ff-3ddc72327f87.png)
+
 
 ## License
 <img src="https://img.shields.io/github/license/luisfernandodass/lifetime"/>
