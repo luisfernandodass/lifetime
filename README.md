@@ -1,7 +1,8 @@
 # LifeTime
 
-## Objective
-LifeTime is a website for you to count how many days you have lived.
+## Description
+
+LifeTime is a WebApp for you to count how many days you have lived.
 
 ## Host
 
@@ -18,10 +19,8 @@ The following tools were used to build the project:
 
 ## Images
 
-![lifetimee netlify app_(Galaxy S5)](https://user-images.githubusercontent.com/67171626/130481904-3531205c-bd3f-4ddc-a6d0-46c9de09a317.png)
-
-![lifetimee netlify app_(Galaxy S5) (1)](https://user-images.githubusercontent.com/67171626/130481932-104c75c6-cdef-4d7c-96ff-3ddc72327f87.png)
-
+<img src="https://user-images.githubusercontent.com/67171626/130481904-3531205c-bd3f-4ddc-a6d0-46c9de09a317.png" width="360px" height="420px">
+<img src="https://user-images.githubusercontent.com/67171626/130481932-104c75c6-cdef-4d7c-96ff-3ddc72327f87.png" width="360px" height="420px">
 
 ## License
 <img src="https://img.shields.io/github/license/luisfernandodass/lifetime"/>
